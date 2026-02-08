@@ -6,7 +6,7 @@ import { Calculator, Landmark } from "lucide-react";
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground flex flex-col items-center p-4 sm:p-8">
-      <div className="w-full max-w-7xl">
+      <div className="w-full max-w-7xl flex-grow">
         <header className="text-center mb-8">
           <h1 className="text-4xl sm:text-5xl font-bold text-primary font-headline tracking-tight">
             Simulateur d'Intérêts Composés
@@ -35,6 +35,9 @@ export default function Home() {
           </TabsContent>
         </Tabs>
       </div>
+      <footer className="py-4">
+        <p className="text-center text-sm text-muted-foreground">Made by Louis C</p>
+      </footer>
     </main>
   );
 }
