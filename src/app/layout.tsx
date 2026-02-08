@@ -6,6 +6,9 @@ import { cn } from '@/lib/utils';
 export const metadata: Metadata = {
   title: "Simulateur d'Intérêts Composés",
   description: "Calculez et visualisez la croissance de votre épargne avec notre simulateur d'intérêts composés interactif.",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
