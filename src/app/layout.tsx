@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Simulateur d'Intérêts Composés",
   description: "Calculez et visualisez la croissance de votre épargne avec notre simulateur d'intérêts composés interactif.",
   icons: {
-    icon: '/favicon.ico',
+    icon: 'https://image2url.com/r2/default/images/1770579977447-63b7f16e-4a66-46fa-8af5-5dcccfb7962a.ico',
   },
 };
 
